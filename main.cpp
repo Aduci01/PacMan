@@ -151,6 +151,8 @@ int main()
                 displayCoin.setCharacterSize(20);
                 displayCoin.setColor(sf::Color::White);
                 displayCoin.setPosition(100, 20);
+
+                clock.restart();
             }
         }
 
